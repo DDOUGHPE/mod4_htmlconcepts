@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 4 HTML Assignment</title>
+</head>
+<body>
+    <nav> <!--BONUS: FULLY FUNCTIONAL PAGES WITH WORKING LINKS BOTH IN AND OUT OF THE PAGE-->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="about.html#team">Our Team</a></li>
+            <li><a href="about.html#mission">Our Mission</a></li>
+        </ul>
+    </nav>
+    <p>ART Purchasing table</p>
+    <table border="2">
+        <tr>
+            <th>Peice Name</th>
+            <th>Peice Price</th>
+            <th>Peice's Remaining</th>
+        </tr>
+        <tr>
+            <td>"Walking Bomb" 12' by 12'</td>
+            <td>$60</td>
+            <td>49</td>
+        </tr>
+        <tr>
+            <td>"Hungry Eyes on Flower Bed" 12' by 12'</td>
+            <td>$50</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>"PATTERN WORK #001" 24' by 32'</td>
+            <td>$150</td>
+            <td>1 of 1</td>
+        </tr>
+    </table>
+
+    <section id="home">
+        <h2>Home Page Vibes</h2>
+        <p>IF THIS SITE WAS A HOME, THIS IS THE ENTRYWAY</p>
+    </section>
+    
+    <section id="about">
+        <h2>ABOUT US: More on us Vibes</h2>
+        <p>IF THIS SITE WAS A HOME, THIS IS THE MEMORY ROOM</p>
+    </section>
+
+    <section id="contact">
+        <h2>CONTACT: Talk to Us Vibes</h2>
+        <p>IF THIS SITE WAS A HOME, THIS IS THE HOME PHONE? IDK, USE THE FORM BELOW</p>
+        <form action="/submit" method="POST">
+            <label for="Name">Name</label>
+            <input type="text" id="Name" placeholder="Name">            
+        </form>
+
+        <form action="/submit" method="POST">
+            <label for="user-email">Email</label>
+            <input type="email" id="user-email" placeholder="Enter Email">            
+        </form>
+
+        <form action="/submit" method="POST">
+            <label for="comments">Comments</label>
+            <textarea id="comments" name="comments" rows="5" cols="20" spellcheck="true"></textarea>            
+        </form>
+    </section>
+
+   
+    <p>See the image below to see my favorite album at the moment</p>
+    <img src="https://wallpapers.com/images/hd/de-la-soul-hviq4ggvv12adtcz.jpg" alt="GREATEST ALBUM OAT" width="100" length="100">
+</body>
+</html>
