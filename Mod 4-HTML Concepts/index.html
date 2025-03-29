@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Module 4 HTML Assignment</title>
 </head>
+<link rel="stylesheet" href="style.css">
 <body>
     <nav> <!--BONUS: FULLY FUNCTIONAL PAGES WITH WORKING LINKS BOTH IN AND OUT OF THE PAGE-->
         <ul>
@@ -39,7 +40,12 @@
             <td>1 of 1</td>
         </tr>
     </table>
-
+    <section id="Youtube">
+        <video controls>
+            <source src="https://youtu.be/h78LNd8B3IY?si=x9chlj1e-3ICpmGo>" type="video/mp4">
+            Austin from calling our shot 
+        </video>
+    </section>
     <section id="home">
         <h2>Home Page Vibes</h2>
         <p>IF THIS SITE WAS A HOME, THIS IS THE ENTRYWAY</p>
@@ -48,7 +54,20 @@
     <section id="about">
         <h2>ABOUT US: More on us Vibes</h2>
         <p>IF THIS SITE WAS A HOME, THIS IS THE MEMORY ROOM</p>
+        <h2>ABOUT YOU: MORE ON YOU VIBES</h2>
+        <Fieldset>
+            <legend>TELL US ABOUT YOU</legend>
+            <label for="NAME">What they call you?</label>
+            <input type="text" id="Name" name="name">
+            <label for="Location">Where you at?</label>
+            <input type="text" id="Location" name="Area">
+            <br><br>
+            <label for="MusicTaste">Describe your vibe</label>
+            <textarea id="MusicTaste" name="Music Vibes" rows="2" cols="70" placeholder="WHO DO YOU LISTEN TO? WHEN DO YOU LISTEN TO THEM? WHY DO YOU LISTEN TO THEM?, WHY SHOULD SOMEONE CHECK THEM OUT?">
+            </textarea>
+        </Fieldset>
     </section>
+
 
     <section id="contact">
         <h2>CONTACT: Talk to Us Vibes</h2>
